@@ -206,6 +206,7 @@ body {
 .study_li {
 	list-style-type: none;
 	padding: 5px 0px;
+	margin-top: 5px;
 	font-weight: bold;
 }
 
@@ -293,4 +294,11 @@ body {
 
 .pro {
 	padding: 5px 0px;
+}
+
+footer {
+	font-size: 0.5em;
+	color: grey;
+	text-align: center;
+	padding: 15px 0px;
 }
