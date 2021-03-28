@@ -116,9 +116,20 @@ body {
 
 .github {
 	font-size: 1.1vw;
+	margin: 0px 20px;
 }
 
 .github a {
+	color: #6799FF;
+	text-decoration: none;
+}
+
+.blog {
+	font-size: 1.1vw;
+	margin: 0px 20px;
+}
+
+.blog a {
 	color: #6799FF;
 	text-decoration: none;
 }
