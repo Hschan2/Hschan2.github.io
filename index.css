@@ -134,6 +134,16 @@ body {
 	text-decoration: none;
 }
 
+.notion {
+	font-size: 1.1vw;
+	margin: 0px 20px;
+}
+
+.notion a {
+	color: #6799FF;
+	text-decoration: none;
+}
+
 .middle {
 	width: 100%;
 	height: auto;
