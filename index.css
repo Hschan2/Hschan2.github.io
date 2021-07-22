@@ -252,11 +252,6 @@ body {
 	font-weight: normal;
 }
 
-.study_li_li a {
-	color: #6799FF;
-	text-decoration: none;
-}
-
 .pro_list {
 	margin-left: 10px;
 }
@@ -265,6 +260,14 @@ body {
 	font-size: 1.6vw;
 	font-weight: bold;
 	padding: 3px 0px;
+}
+
+.pro_title a {
+	font-size: 1vw;
+	margin-left: 5px;
+	color: #6799FF;
+	text-decoration: none;
+	margin-top: 10px;
 }
 
 .pro_sub_title {
@@ -301,11 +304,6 @@ body {
 	padding: 3px 0px;
 	list-style-type: circle;
 	color: #000;
-}
-
-.pro_li_li a {
-	color: #6799FF;
-	text-decoration: none;
 }
 
 .pro_li_li_li {
