@@ -1,0 +1,50 @@
+.sectionSkill {
+	padding: 10px 15px;
+	box-sizing: border-box;
+}
+
+.sectionSkill .skillTitle {
+	width: 16%;
+	font-size: 1.5vw;
+	padding: 5px 5px;
+	border-bottom: 1px solid rgb(0,0,0,0.2);
+	text-align: center;
+}
+
+.sectionSkill .skillTypeBox {
+	box-sizing: border-box;
+	width: 100%;
+	margin: 15px 0;
+	padding: 5px 5px;
+}
+
+.sectionSkill .skillTypeBox p {
+	font-size: 1.18vw;
+	color: rgb(0, 0, 0);
+	text-transform: uppercase;
+	margin: 0 0 10px 10px;
+	padding: 0;
+	letter-spacing: 1px;
+}
+
+.sectionSkill .skillTypeBox p:nth-child(2) {
+	float: right;
+	position: relative;
+	top: -25px;
+    margin-right: 10px;
+}
+
+.sectionSkill .skillTypeBox .skillLevelBox {
+	background: #1d1c1a;
+	padding: 5px;
+	box-sizing: border-box;
+	border: 1px solid #cfcfc4;
+	border-radius: 50px;
+}
+
+.sectionSkill .skillTypeBox .skillLevelBox .skillLevel {
+	background: #cfcfc4;
+	width: 100%;
+	height: 10px;
+	border-radius: 50px;
+}
