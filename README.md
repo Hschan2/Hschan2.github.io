@@ -1,8 +1,11 @@
-[Hschan2.github.io](https://hschan2.github.io/)
+# [Hschan2.github.io](https://hschan2.github.io/)
 
-2021-09-03 수정   
-CSS 깔끔하게 정리 예정
+## 수정 내용 (2021.09.03) 
+* Skill Graph 추가
 
-CSS 적용 에러 -> 캐시 모두 삭제 후 접속 (Edge, Explorer는 CSS 적용)
+## 수정 예정
+* CSS 정리
+* 코로나 현황 프로젝트 추가
 
-코로나 현황 그래프 프로젝트 추가 예정
+## 주의할 점
+* CSS 적용 에러 발생 시, 브라우저 캐시 삭제 후 재접속
