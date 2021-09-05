@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;500&family=Nanum+Myeongjo&display=swap');
 
+:root {
+	--section-bg-color: #fff;
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -26,7 +30,7 @@ body {
 	overflow: auto;
 }
 
-.cardCommon {
+.sectionCommon {
 	background-color: white;
 	border: 1px solid rgb(0,0,0,0.2);
 	border-radius: 10px;
@@ -45,18 +49,6 @@ body {
 	margin: 0 auto;
 }
 
-.top {
-	width: 100%;
-	height: auto;
-	background-color: white;
-	border: 1px solid rgb(0,0,0,0.2);
-	border-radius: 10px;
-	margin: 15px 0px;
-	-moz-box-shadow: 3px 3px 3px rgb(0,0,0,0.2);
-	-webkit-box-shadow: 3px 3px 3px rgb(0,0,0,0.2);
-	box-shadow: 3px 3px 3px rgb(0,0,0,0.2);
-}
-
 .info {
 	margin: 10px 15px;
 	padding: 15px;
@@ -65,45 +57,45 @@ body {
 	justify-content: center;
 }
 
-.info1 {
+.nameInfo {
 	padding: 0 20px;
 	float: left;
 }
 
-.kn {
+.koreaName {
 	font-size: 1.5vw;
 }
 
-.en {
+.englishName {
 	font-size: 1vw;
 	margin-top: -3px;
 	color: grey;
 }
 
-.front {
+.frontEnd {
 	font-size: 1.1vw;
 	margin-top: 10px;
 	color: grey;
 }
 
-.info2 {
+.connectInfo {
 	padding: 0 20px;
 	font-size: 1.3vw;
 }
 
-.birth {
+.birthDay {
 	margin: 5px 0px;
 }
 
-.phone {
+.phoneNumber {
 	margin: 5px 0px;
 }
 
-.mail {
+.Email {
 	margin: 5px 0px;
 }
 
-.mail a {
+.Email a {
 	text-decoration: none;
 	color: #6799FF;
 }
@@ -112,13 +104,13 @@ body {
 	margin: 15px 15px;
 }
 
-.insta {
+.instagram {
 	float: left;
 	margin: 0px 20px;
 	font-size: 1.1vw;
 }
 
-.insta a {
+.instagram a {
 	color: #6799FF;
 	text-decoration: none;
 }
@@ -153,29 +145,22 @@ body {
 	text-decoration: none;
 }
 
-.middle {
-	width: 100%;
-	height: auto;
-	background-color: white;
-	border: 1px solid rgb(0,0,0,0.2);
-	border-radius: 10px;
-	margin: 15px 0px;
-	-moz-box-shadow: 3px 3px 3px rgb(0,0,0,0.2);
-	-webkit-box-shadow: 3px 3px 3px rgb(0,0,0,0.2);
-	box-shadow: 3px 3px 3px rgb(0,0,0,0.2);
+.calendarBox {
+	text-align: center;
+	margin-top: 10px;
 }
 
-.important {
+.mRL15 {
 	margin: 0px 15px;
 }
 
-.study {
+.studyProject {
 	width: 100%;
 	height: auto;
 	border-bottom: 2px solid rgb(0,0,0,0.3);
 }
 
-.bottom {
+.smallSectionBox {
 	width: 100%;
 	height: auto;
 	background-color: white;
@@ -187,19 +172,7 @@ body {
 	box-shadow: 3px 3px 3px rgb(0,0,0,0.2);
 }
 
-.edu {
-	width: 100%;
-	height: auto;
-	background-color: white;
-	border: 1px solid rgb(0,0,0,0.2);
-	border-radius: 10px;
-	margin: 15px 0px;
-	-moz-box-shadow: 3px 3px 3px rgb(0,0,0,0.2);
-	-webkit-box-shadow: 3px 3px 3px rgb(0,0,0,0.2);
-	box-shadow: 3px 3px 3px rgb(0,0,0,0.2);
-}
-
-.mtitle {
+.projectTitle {
 	width: 24%;
 	font-size: 1.5vw;
 	margin: 10px 0px;
@@ -208,7 +181,7 @@ body {
 	text-align: center;
 }
 
-.title {
+.smallSectionTitle {
 	width: 16%;
 	font-size: 1.5vw;
 	margin: 10px 15px;
@@ -217,35 +190,39 @@ body {
 	text-align: center;
 }
 
-.des {
+.smallSectionContent {
 	font-size: 1.18vw;
 	color: #000;
 	margin: 15px 25px;
 	word-break: keep-all;
 }
 
-.study_list {
+.studyProjectBox {
 	margin-left: 10px;
 	padding: 5px 0px;
 }
 
-.study_ul {
-	font-size: 1.1vw;
+.listNoneStyle {
+	list-style-type: none;
 }
 
-.study_li {
+.mT5 {
+	margin-top: 5px;
+}
+
+.projectUlStudyLi {
 	list-style-type: none;
 	padding: 5px 0px;
 	margin-top: 5px;
 	font-weight: bold;
 }
 
-.nameLink {
+.studyNameLink {
 	font-size: 1.3vw;
 	margin-bottom: 3px;
 }
 
-.nameLink a {
+.studyNameLink a {
 	font-size: 1vw;
 	margin-left: 5px;
 	color: #6799FF;
@@ -253,25 +230,32 @@ body {
 	margin-top: 10px;
 }
 
-.study_li_li {
+.mL40 {
 	margin-left: 40px;
-	padding: 3px 0px;
+}
+
+.blackCircle {
 	list-style-type: circle;
 	color: rgba(0, 0, 0, 0.8);
+}
+
+.normalFont {
 	font-weight: normal;
 }
 
-.pro_list {
+.boldFont {
+	font-weight: bold;
+}
+
+.mL10 {
 	margin-left: 10px;
 }
 
-.pro_title {
+.fontSize16vw {
 	font-size: 1.6vw;
-	font-weight: bold;
-	padding: 3px 0px;
 }
 
-.pro_title a {
+.aLink {
 	font-size: 1vw;
 	margin-left: 5px;
 	color: #6799FF;
@@ -279,115 +263,36 @@ body {
 	margin-top: 10px;
 }
 
-.pro_sub_title {
-	font-size: 1vw;
-	font-weight: bold;
-	padding: 5px 0px;
-}
-
-.role {
-	font-size: 1.1vw;
-	padding: 3px 0px;
-}
-
-.skill {
-	font-size: 1.1vw;
-	padding: 3px 0px;
-}
-
-.pro_des {
-	padding: 3px 0px;
-}
-
-.pro_ul {
+.fontSize11vw {
 	font-size: 1.1vw;
 }
 
-.pro_li {
+.mL15 {
 	margin-left: 15px;
-	padding: 3px 0px;
 }
 
-.pro_li_li {
+.padTB3 {
+	padding: 3px 0;
+}
+
+.mL30 {
 	margin-left: 30px;
-	padding: 3px 0px;
-	list-style-type: circle;
-	color: #000;
 }
 
-.pro_li_li_li {
+.mL45 {
 	margin-left: 45px;
-	padding: 3px 0px;
-	list-style-type: circle;
-	color: #000;
 }
 
-.pro_li_li_li_li {
+.mL60 {
 	margin-left: 60px;
-	padding: 3px 0px;
-	list-style-type: circle;
-	color: rgba(0, 0, 0, 0.8);
 }
 
-.pro_li_li_li_li_li {
+.mL75 {
 	margin-left: 75px;
-	padding: 3px 0px;
-	list-style-type: circle;
-	color: rgba(0, 0, 0, 0.8);
 }
 
-.pro {
+.padTB5 {
 	padding: 5px 0px;
-}
-
-.skill_center {
-	padding: 10px 15px;
-	box-sizing: border-box;
-}
-
-.skill_center .titleBox {
-	width: 16%;
-	font-size: 1.5vw;
-	padding: 5px 5px;
-	border-bottom: 1px solid rgb(0,0,0,0.2);
-	text-align: center;
-}
-
-.skill_center .skillBox {
-	box-sizing: border-box;
-	width: 100%;
-	margin: 15px 0;
-	padding: 5px 5px;
-}
-
-.skill_center .skillBox p {
-	font-size: 1.18vw;
-	color: rgb(0, 0, 0);
-	text-transform: uppercase;
-	margin: 0 0 10px 10px;
-	padding: 0;
-	letter-spacing: 1px;
-}
-
-.skill_center .skillBox p:nth-child(2) {
-	float: right;
-	position: relative;
-	top: -25px;
-}
-
-.skill_center .skillBox .skill {
-	background: #1d1c1a;
-	padding: 5px;
-	box-sizing: border-box;
-	border: 1px solid #cfcfc4;
-	border-radius: 50px;
-}
-
-.skill_center .skillBox .skill .skill_level {
-	background: #cfcfc4;
-	width: 100%;
-	height: 10px;
-	border-radius: 50px;
 }
 
 footer {
