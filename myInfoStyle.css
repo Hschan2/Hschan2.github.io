@@ -1,0 +1,119 @@
+/* horizontal Style */
+.row {
+	flex: 1;
+	flex-direction: row;
+	overflow: auto;
+}
+
+.flex {
+	display: flex;
+}
+
+/* Personal Information Style */
+.info {
+	margin: 10px 15px;
+	padding: 15px;
+	border-bottom: 2px solid rgb(0,0,0,0.3);
+	align-items: center;
+	justify-content: center;
+}
+
+.nameInfo {
+	padding: 0 20px;
+	float: left;
+}
+
+.koreaName {
+	font-size: 1.5vw;
+}
+
+.englishName {
+	font-size: 1vw;
+	margin-top: -3px;
+	color: grey;
+}
+
+.frontEnd {
+	font-size: 1.1vw;
+	margin-top: 10px;
+	color: grey;
+}
+
+.connectInfo {
+	padding: 0 20px;
+	font-size: 1.3vw;
+}
+
+.birthDay {
+	margin: 5px 0px;
+}
+
+.phoneNumber {
+	margin: 5px 0px;
+}
+
+.Email {
+	margin: 5px 0px;
+}
+
+.Email a {
+	text-decoration: none;
+	color: #6799FF;
+}
+
+/* Portfolio Sites Style */
+.site {
+	margin: 15px 15px;
+}
+
+.instagram {
+	float: left;
+	margin: 0px 20px;
+	font-size: 1.1vw;
+}
+
+.instagram a {
+	color: #6799FF;
+	text-decoration: none;
+}
+
+.github {
+	font-size: 1.1vw;
+	margin: 0px 20px;
+}
+
+.github a {
+	color: #6799FF;
+	text-decoration: none;
+}
+
+.blog {
+	font-size: 1.1vw;
+	margin: 0px 20px;
+}
+
+.blog a {
+	color: #6799FF;
+	text-decoration: none;
+}
+
+.notion {
+	font-size: 1.1vw;
+	margin: 0px 20px;
+}
+
+.notion a {
+	color: #6799FF;
+	text-decoration: none;
+}
+
+/* Github Calender Style */
+.calendarBox {
+	text-align: center;
+	margin-top: 10px;
+}
+
+.calendarBox a {
+	color: #000;
+	text-decoration: none;
+}
