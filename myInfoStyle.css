@@ -1,3 +1,8 @@
+:root {
+	--section-aTag-color: #6799FF;
+	--section-subName-color: grey;
+}
+
 /* horizontal Style */
 .row {
 	flex: 1;
@@ -30,13 +35,13 @@
 .englishName {
 	font-size: 1vw;
 	margin-top: -3px;
-	color: grey;
+	color: var(--section-subName-color);
 }
 
 .frontEnd {
 	font-size: 1.1vw;
 	margin-top: 10px;
-	color: grey;
+	color: var(--section-subName-color);
 }
 
 .connectInfo {
@@ -58,7 +63,7 @@
 
 .Email a {
 	text-decoration: none;
-	color: #6799FF;
+	color: var(--section-aTag-color);
 }
 
 /* Portfolio Sites Style */
@@ -73,7 +78,7 @@
 }
 
 .instagram a {
-	color: #6799FF;
+	color: var(--section-aTag-color);
 	text-decoration: none;
 }
 
@@ -83,7 +88,7 @@
 }
 
 .github a {
-	color: #6799FF;
+	color: var(--section-aTag-color);
 	text-decoration: none;
 }
 
@@ -93,7 +98,7 @@
 }
 
 .blog a {
-	color: #6799FF;
+	color: var(--section-aTag-color);
 	text-decoration: none;
 }
 
@@ -103,7 +108,7 @@
 }
 
 .notion a {
-	color: #6799FF;
+	color: var(--section-aTag-color);
 	text-decoration: none;
 }
 

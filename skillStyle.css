@@ -1,10 +1,23 @@
+:root {
+	--section-aTag-color: #6799FF;
+	--section-lightestBlack-color: rgb(0,0,0,0.2);
+	--section-box-shadow: 3px 3px 3px rgb(0,0,0,0.2);
+	--section-innerGraph-color: #cfcfc4;
+	--section-outerGraph-color: #1d1c1a;
+	--section-htmlWidth: 85%;
+	--section-cssWidth: 65%;
+	--section-jsWidth: 60%;
+	--section-javaWidth: 55%;
+	--section-phpWidth: 30%;
+}
+
 .sectionSkill {
 	background-color: white;
-	border: 1px solid rgb(0,0,0,0.2);
+	border: 1px solid var(--section-lightestBlack-color);
 	border-radius: 10px;
-	-moz-box-shadow: 3px 3px 3px rgb(0,0,0,0.2);
-	-webkit-box-shadow: 3px 3px 3px rgb(0,0,0,0.2);
-	box-shadow: 3px 3px 3px rgb(0,0,0,0.2);
+	-moz-box-shadow: var(--section-box-shadow);
+	-webkit-box-shadow: var(--section-box-shadow);
+	box-shadow: var(--section-box-shadow);
 	padding: 10px 15px;
 	box-sizing: border-box;
 }
@@ -13,7 +26,7 @@
 	width: 16%;
 	font-size: 1.5vw;
 	padding: 5px 5px;
-	border-bottom: 1px solid rgb(0,0,0,0.2);
+	border-bottom: 1px solid var(--section-lightestBlack-color);
 	text-align: center;
 }
 
@@ -26,7 +39,7 @@
 
 .sectionSkill .skillTypeBox p {
 	font-size: 1.18vw;
-	color: rgb(0, 0, 0);
+	color: #000;
 	text-transform: uppercase;
 	margin: 0 0 10px 10px;
 	padding: 0;
@@ -41,16 +54,98 @@
 }
 
 .sectionSkill .skillTypeBox .skillLevelBox {
-	background: #1d1c1a;
+	background: var(--section-outerGraph-color);
 	padding: 5px;
 	box-sizing: border-box;
-	border: 1px solid #cfcfc4;
+	border: 1px solid var(--section-innerGraph-color);
 	border-radius: 50px;
 }
 
 .sectionSkill .skillTypeBox .skillLevelBox .skillLevel {
-	background: #cfcfc4;
-	width: 100%;
+	background: var(--section-innerGraph-color);
+	/* width: 100%; */
 	height: 10px;
 	border-radius: 50px;
+}
+
+/* Skill Width Style */
+.htmlWidth {
+	width: var(--section-htmlWidth);
+	animation-duration: 1s;
+	animation-name: htmlSlide;
+}
+
+.cssWidth {
+	width: var(--section-cssWidth);
+	animation-duration: 1s;
+	animation-name: cssSlide;
+}
+
+.jsWidth {
+	width: var(--section-jsWidth);
+	animation-duration: 1s;
+	animation-name: jsSlide;
+}
+
+.javaWidth {
+	width: var(--section-javaWidth);
+	animation-duration: 1s;
+	animation-name: javaSlide;
+}
+
+.phpWidth {
+	width: var(--section-phpWidth);
+	animation-duration: 1s;
+	animation-name: phpSlide;
+}
+
+/* Width Animation Keyframes */
+@keyframes htmlSlide {
+	from {
+		width: 0%;
+	}
+
+	to {
+		width: var(--section-htmlWidth);
+	}
+}
+
+@keyframes cssSlide {
+	from {
+		width: 0%;
+	}
+
+	to {
+		width: var(--section-cssWidth);
+	}
+}
+
+@keyframes jsSlide {
+	from {
+		width: 0%;
+	}
+
+	to {
+		width: var(--section-jsWidth);
+	}
+}
+
+@keyframes javaSlide {
+	from {
+		width: 0%;
+	}
+
+	to {
+		width: var(--section-javaWidth);
+	}
+}
+
+@keyframes phpSlide {
+	from {
+		width: 0%;
+	}
+
+	to {
+		width: var(--section-phpWidth);
+	}
 }
