@@ -127,6 +127,10 @@ body {
 	margin-top: 5px;
 }
 
+.mTB10 {
+	margin: 10px 0px;
+}
+
 .mL10 {
 	margin-left: 10px;
 }
@@ -160,7 +164,7 @@ body {
 }
 
 .padTB3 {
-	padding: 3px 0;
+	padding: 3px 0px;
 }
 
 .padTB5 {

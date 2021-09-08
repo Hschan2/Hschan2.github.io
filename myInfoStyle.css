@@ -4,14 +4,14 @@
 }
 
 /* horizontal Style */
+.flex {
+	display: flex;
+}
+
 .row {
 	flex: 1;
 	flex-direction: row;
 	overflow: auto;
-}
-
-.flex {
-	display: flex;
 }
 
 /* Personal Information Style */
@@ -115,7 +115,6 @@
 /* Github Calender Style */
 .calendarBox {
 	text-align: center;
-	margin-top: 10px;
 }
 
 .calendarBox a {
