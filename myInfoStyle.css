@@ -62,7 +62,6 @@
 }
 
 .Email a {
-	text-decoration: none;
 	color: var(--section-aTag-color);
 }
 
@@ -79,7 +78,6 @@
 
 .instagram a {
 	color: var(--section-aTag-color);
-	text-decoration: none;
 }
 
 .github {
@@ -89,7 +87,6 @@
 
 .github a {
 	color: var(--section-aTag-color);
-	text-decoration: none;
 }
 
 .blog {
@@ -99,7 +96,6 @@
 
 .blog a {
 	color: var(--section-aTag-color);
-	text-decoration: none;
 }
 
 .notion {
@@ -109,15 +105,9 @@
 
 .notion a {
 	color: var(--section-aTag-color);
-	text-decoration: none;
 }
 
 /* Github Calender Style */
 .calendarBox {
 	text-align: center;
-}
-
-.calendarBox a {
-	color: #000;
-	text-decoration: none;
 }
