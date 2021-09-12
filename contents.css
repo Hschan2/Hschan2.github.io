@@ -108,20 +108,30 @@ body {
 	font-size: 1.6vw;
 }
 
+.fontSize13vw {
+	font-size: 1.3vw;
+}
+
 .fontSize11vw {
 	font-size: 1.1vw;
 }
 
 /* A Tag Style */
-.aLink {
+.aLinkSection {
 	font-size: 1vw;
 	margin-left: 5px;
-	color: var(--section-aTag-color);
-	margin-top: 10px;
 }
 
 .decorationNone {
 	text-decoration: none;
+}
+
+.aTextBlack {
+	color: #000;
+}
+
+.aLinkColor {
+	color: var(--section-aTag-color);
 }
 
 /* Margin Padding Style */
@@ -129,8 +139,20 @@ body {
 	margin-top: 5px;
 }
 
+.mBm10 {
+	margin-bottom: -10px;
+}
+
+.mT15 {
+	margin-top: 15px;
+}
+
+.mTB5 {
+	margin: 5px 0px;
+}
+
 .mTB10 {
-	margin: 10px 0px;
+	margin: 15px 0px;
 }
 
 .mL10 {
@@ -159,6 +181,10 @@ body {
 
 .mL75 {
 	margin-left: 75px;
+}
+
+.mRL10 {
+	margin: 0px 10px;
 }
 
 .mRL15 {

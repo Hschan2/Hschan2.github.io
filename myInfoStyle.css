@@ -61,10 +61,6 @@
 	margin: 5px 0px;
 }
 
-.Email a {
-	color: var(--section-aTag-color);
-}
-
 /* Portfolio Sites Style */
 .site {
 	margin: 15px 15px;
@@ -72,39 +68,19 @@
 
 .instagram {
 	float: left;
-	margin: 0px 20px;
 	font-size: 1.1vw;
-}
-
-.instagram a {
-	color: var(--section-aTag-color);
 }
 
 .github {
 	font-size: 1.1vw;
-	margin: 0px 20px;
-}
-
-.github a {
-	color: var(--section-aTag-color);
 }
 
 .blog {
 	font-size: 1.1vw;
-	margin: 0px 20px;
-}
-
-.blog a {
-	color: var(--section-aTag-color);
 }
 
 .notion {
 	font-size: 1.1vw;
-	margin: 0px 20px;
-}
-
-.notion a {
-	color: var(--section-aTag-color);
 }
 
 /* Github Calender Style */
