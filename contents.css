@@ -37,7 +37,7 @@ body {
 
 .projectTitle {
 	width: 24%;
-	font-size: 1.5vw;
+	font-size: 15px;
 	margin: 10px 0px;
 	padding: 5px;
 	border-bottom: 1px solid var(--section-lightestBlack-color);
@@ -45,12 +45,12 @@ body {
 }
 
 .studyNameLink {
-	font-size: 1.3vw;
+	font-size: 12px;
 	margin-bottom: 3px;
 }
 
 .studyNameLink a {
-	font-size: 1vw;
+	font-size: 10px;
 	margin-left: 5px;
 	color: var(--section-aTag-color);
 	margin-top: 10px;
@@ -71,7 +71,7 @@ body {
 
 .smallSectionTitle {
 	width: 16%;
-	font-size: 1.5vw;
+	font-size: 15px;
 	margin: 10px 15px;
 	padding: 5px;
 	border-bottom: 1px solid var(--section-lightestBlack-color);
@@ -79,7 +79,7 @@ body {
 }
 
 .smallSectionContent {
-	font-size: 1.18vw;
+	font-size: 11px;
 	color: #000;
 	margin: 15px 25px;
 	word-break: keep-all;
@@ -104,21 +104,21 @@ body {
 	font-weight: bold;
 }
 
-.fontSize16vw {
-	font-size: 1.6vw;
+.fontSize16 {
+	font-size: 16px;
 }
 
-.fontSize13vw {
-	font-size: 1.3vw;
+.fontSize13 {
+	font-size: 13px;
 }
 
-.fontSize11vw {
-	font-size: 1.1vw;
+.fontSize11 {
+	font-size: 11px;
 }
 
 /* A Tag Style */
 .aLinkSection {
-	font-size: 1vw;
+	font-size: 10px;
 	margin-left: 5px;
 }
 
@@ -200,7 +200,7 @@ body {
 }
 
 footer {
-	font-size: 0.5em;
+	font-size: 5px;
 	color: grey;
 	text-align: center;
 	padding: 15px 0px;

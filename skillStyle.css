@@ -24,7 +24,7 @@
 
 .sectionSkill .skillTitle {
 	width: 16%;
-	font-size: 1.5vw;
+	font-size: 15px;
 	padding: 5px 5px;
 	border-bottom: 1px solid var(--section-lightestBlack-color);
 	text-align: center;
@@ -38,7 +38,7 @@
 }
 
 .sectionSkill .skillTypeBox p {
-	font-size: 1.18vw;
+	font-size: 11px;
 	color: #000;
 	text-transform: uppercase;
 	margin: 0 0 10px 10px;
