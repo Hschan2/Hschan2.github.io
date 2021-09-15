@@ -14,6 +14,10 @@
 	overflow: auto;
 }
 
+.floatLeft {
+	float: left;
+}
+
 /* Personal Information Style */
 .info {
 	margin: 10px 15px;
@@ -21,11 +25,6 @@
 	border-bottom: 2px solid rgb(0,0,0,0.3);
 	align-items: center;
 	justify-content: center;
-}
-
-.nameInfo {
-	padding: 0 20px;
-	float: left;
 }
 
 .koreaName {
@@ -44,43 +43,9 @@
 	color: var(--section-subName-color);
 }
 
-.connectInfo {
-	padding: 0 20px;
-	font-size: 13px;
-}
-
-.birthDay {
-	margin: 5px 0px;
-}
-
-.phoneNumber {
-	margin: 5px 0px;
-}
-
-.Email {
-	margin: 5px 0px;
-}
-
 /* Portfolio Sites Style */
 .site {
 	margin: 15px 15px;
-}
-
-.instagram {
-	float: left;
-	font-size: 11px;
-}
-
-.github {
-	font-size: 11px;
-}
-
-.blog {
-	font-size: 11px;
-}
-
-.notion {
-	font-size: 11px;
 }
 
 /* Github Calender Style */

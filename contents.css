@@ -24,7 +24,7 @@ body {
 }
 
 .content {
-	width: 50%;
+	width: 500px;
 	margin: 0 auto;
 }
 
@@ -37,7 +37,6 @@ body {
 
 .projectTitle {
 	width: 24%;
-	font-size: 15px;
 	margin: 10px 0px;
 	padding: 5px;
 	border-bottom: 1px solid var(--section-lightestBlack-color);
@@ -71,7 +70,6 @@ body {
 
 .smallSectionTitle {
 	width: 16%;
-	font-size: 15px;
 	margin: 10px 15px;
 	padding: 5px;
 	border-bottom: 1px solid var(--section-lightestBlack-color);
@@ -106,6 +104,10 @@ body {
 
 .fontSize16 {
 	font-size: 16px;
+}
+
+.fontSize15 {
+	font-size: 15px;
 }
 
 .fontSize13 {
@@ -197,6 +199,10 @@ body {
 
 .padTB5 {
 	padding: 5px 0px;
+}
+
+.padRL20 {
+	padding: 0px 20px;
 }
 
 footer {
