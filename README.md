@@ -1,6 +1,6 @@
 # [Hschan2.github.io](https://hschan2.github.io/)
 
-## 수정 내용 (2021.09.21) 
+## 수정 내용 (2021.09.30) 
 * Web Link 가운데 정렬 및 여백 조절
 
 ## 수정 예정
