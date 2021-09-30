@@ -44,8 +44,8 @@
 }
 
 /* Portfolio Sites Style */
-.site {
-	margin: 15px 15px;
+.centerItems {
+	justify-content: center;
 }
 
 /* Github Calender Style */
