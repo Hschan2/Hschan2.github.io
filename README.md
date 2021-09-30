@@ -1,7 +1,7 @@
 # [Hschan2.github.io](https://hschan2.github.io/)
 
 ## 수정 내용 (2021.09.21) 
-* 개인 정보 내용 변경 (index.html)
+* Web Link 가운데 정렬 및 여백 조절
 
 ## 수정 예정
 * 코로나 현황 프로젝트 추가
