@@ -9,7 +9,7 @@
 
 var animation = () => {
     var skillItems, winHeight;
-    var addStyles = ["htmlWidth", "cssWidth", "jsWidth", "javaWidth", "phpWidth"];
+    var addStyles = ["htmlWidth", "jsWidth", "javaWidth", "phpWidth", "reactWidth", "nodeWidth"];
 
     var initModule = () => {
         skillItems = document.querySelectorAll(".skillLevel");

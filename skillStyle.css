@@ -4,11 +4,12 @@
 	--section-box-shadow: 3px 3px 3px rgb(0,0,0,0.2);
 	--section-innerGraph-color: #cfcfc4;
 	--section-outerGraph-color: #1d1c1a;
-	--section-htmlWidth: 85%;
-	--section-cssWidth: 65%;
-	--section-jsWidth: 60%;
-	--section-javaWidth: 55%;
+	--section-htmlWidth: 70%;
+	--section-jsWidth: 55%;
+	--section-javaWidth: 45%;
 	--section-phpWidth: 30%;
+	--section-reactWidth: 40%;
+	--section-nodeWidth: 45%;
 }
 
 .sectionSkill {
@@ -33,15 +34,15 @@
 .sectionSkill .skillTypeBox {
 	box-sizing: border-box;
 	width: 100%;
-	margin: 15px 0;
-	padding: 5px 5px;
+	margin: 10px 0;
+	padding: 3px 3px;
 }
 
 .sectionSkill .skillTypeBox p {
 	font-size: 11px;
 	color: #000;
 	text-transform: uppercase;
-	margin: 0 0 10px 10px;
+	margin: 0 0 3px 3px;
 	padding: 0;
 	letter-spacing: 1px;
 }
@@ -49,13 +50,13 @@
 .sectionSkill .skillTypeBox p:nth-child(2) {
 	float: right;
 	position: relative;
-	top: -25px;
+	top: -17px;
     margin-right: 10px;
 }
 
 .sectionSkill .skillTypeBox .skillLevelBox {
 	background: var(--section-outerGraph-color);
-	padding: 5px;
+	padding: 3px;
 	box-sizing: border-box;
 	border: 1px solid var(--section-innerGraph-color);
 	border-radius: 50px;
@@ -64,7 +65,7 @@
 .sectionSkill .skillTypeBox .skillLevelBox .skillLevel {
 	background: var(--section-innerGraph-color);
 	/* width: 100%; */
-	height: 10px;
+	height: 5px;
 	border-radius: 50px;
 }
 
@@ -73,12 +74,6 @@
 	width: var(--section-htmlWidth);
 	animation-duration: 1s;
 	animation-name: htmlSlide;
-}
-
-.cssWidth {
-	width: var(--section-cssWidth);
-	animation-duration: 1s;
-	animation-name: cssSlide;
 }
 
 .jsWidth {
@@ -99,6 +94,18 @@
 	animation-name: phpSlide;
 }
 
+.reactWidth {
+	width: var(--section-reactWidth);
+	animation-duration: 1s;
+	animation-name: reactSlide;
+}
+
+.nodeWidth {
+	width: var(--section-nodeWidth);
+	animation-duration: 1s;
+	animation-name: nodeSlide;
+}
+
 /* Width Animation Keyframes */
 @keyframes htmlSlide {
 	from {
@@ -107,16 +114,6 @@
 
 	to {
 		width: var(--section-htmlWidth);
-	}
-}
-
-@keyframes cssSlide {
-	from {
-		width: 0%;
-	}
-
-	to {
-		width: var(--section-cssWidth);
 	}
 }
 
@@ -147,5 +144,25 @@
 
 	to {
 		width: var(--section-phpWidth);
+	}
+}
+
+@keyframes reactSlide {
+	from {
+		width: 0%;
+	}
+
+	to {
+		width: var(--section-reactWidth);
+	}
+}
+
+@keyframes nodeSlide {
+	from {
+		width: 0%;
+	}
+
+	to {
+		width: var(--section-nodeWidth);
 	}
 }
