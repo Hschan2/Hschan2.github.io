@@ -1,0 +1,54 @@
+:root {
+	--section-aTag-color: #6799FF;
+	--section-subName-color: grey;
+}
+
+/* horizontal Style */
+.flex {
+	display: flex;
+}
+
+.row {
+	flex: 1;
+	flex-direction: row;
+	overflow: auto;
+}
+
+.floatLeft {
+	float: left;
+}
+
+/* Personal Information Style */
+.info {
+	margin: 10px 15px;
+	padding: 15px;
+	border-bottom: 2px solid rgb(0,0,0,0.3);
+	align-items: center;
+	justify-content: center;
+}
+
+.koreaName {
+	font-size: 15px;
+}
+
+.englishName {
+	font-size: 10px;
+	margin-top: -3px;
+	color: var(--section-subName-color);
+}
+
+.frontEnd {
+	font-size: 11px;
+	margin-top: 10px;
+	color: var(--section-subName-color);
+}
+
+/* Portfolio Sites Style */
+.centerItems {
+	justify-content: center;
+}
+
+/* Github Calender Style */
+.calendarBox {
+	text-align: center;
+}
