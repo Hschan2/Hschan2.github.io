@@ -29,12 +29,6 @@ body {
 }
 
 /* Study Section Style */
-.studyProject {
-	width: 100%;
-	height: auto;
-	border-bottom: 2px solid var(--section-lightestBlack-color);
-}
-
 .projectTitle {
 	width: 24%;
 	margin: 10px 0px;
