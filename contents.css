@@ -29,12 +29,6 @@ body {
 }
 
 /* Study Section Style */
-.studyProject {
-	width: 100%;
-	height: auto;
-	border-bottom: 2px solid var(--section-lightestBlack-color);
-}
-
 .projectTitle {
 	width: 24%;
 	margin: 10px 0px;
@@ -139,10 +133,6 @@ body {
 /* Margin Padding Style */
 .mT5 {
 	margin-top: 5px;
-}
-
-.mBm10 {
-	margin-bottom: -10px;
 }
 
 .mT15 {
