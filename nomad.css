@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: chocolate;
+}
+
+.clock {
+    position: fixed;
+    left: 0;
+    top: 0;
+    color: #fff;
+    padding: .5rem;
+}
+
+.weather {
+    position: fixed;
+    right: 0;
+    top: 0;
+    color: #fff;
+    padding: .5rem;
+}
