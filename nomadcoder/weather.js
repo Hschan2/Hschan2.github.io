@@ -14,7 +14,7 @@ function getWeather(lat, lng) { // 날씨 API 가져오기
             const place = json.name;
             const des = json.weather[0].description;
             const wind = Math.round(json.wind.speed);
-            weather.innerHTML = `${wind}m/s ${temp}˚ ${des}, ${place}`;
+            weather.innerHTML = `바람 ${wind}m/s · 온도 ${temp}˚ / ${des}, ${place}`;
     });
 }
 

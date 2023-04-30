@@ -47,7 +47,12 @@ body {
 
 .nameBox {
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
+}
+
+.nameBox::placeholder {
+	color: #2c3e50;
+	text-align: left;
 }
 
 .js-toDoForm {
@@ -94,7 +99,10 @@ body {
 	font-size: 15px;
 	margin-top: 7px;
 	display: inline-flex;
-	margin-right: 15px;
+}
+
+.js-toDoList span {
+	cursor: pointer;
 }
 
 .js-toDoList button {
@@ -103,6 +111,7 @@ body {
 	border: none;
 	border-radius: 5px;
 	margin-left: 10px;
+	cursor: pointer;
 	-webkit-transition-duration: 0.2s; /* Safari */
 	transition-duration: 0.2s;
 }
@@ -124,6 +133,62 @@ body {
 	filter: blur(5px) brightness(0.5);
 	z-index: -1;
 	animation: fadeIn 0.5s linear;
+}
+
+.search-box {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	max-width: 300px;
+	margin: 0 auto;
+	position: absolute;
+	bottom: 9%;
+	left: 50%;
+	transform: translateX(-42%);
+	z-index: 1;
+}
+
+.search-box-inner {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 20px;
+	padding: 10px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.searchInput {
+	border: none;
+	border-radius: 10px;
+	outline: none;
+	width: 100%;
+	padding: 8px;
+	font-size: 16px;
+}
+
+.searchInput::placeholder {
+	color: #2c3e50;
+	font-size: 12px;
+	text-align: left;
+}
+
+.searchBtn {
+	border: none;
+	outline: none;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+.searchBtn:hover i {
+	color: #0d6efd;
+}
+
+i.bx-search {
+	font-size: 24px;
+	color: #fff;
+	transition: color 0.2s;
 }
 
 .footer {
