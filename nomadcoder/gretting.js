@@ -27,13 +27,13 @@ function paintGreeting(text) {
     form.classList.remove(SHOWING_CN); // form의 클래스 제거
     greeting.classList.add(SHOWING_CN); // greeting의 클래스 추가
     if(hours >= 06 && hours < 12) {
-        greeting.innerHTML = `Good Morning. ${text}`;
+        greeting.innerHTML = `Good Morning, ${text}`;
     } else if(hours >= 12 && hours < 18) {
-        greeting.innerHTML = `Good Afternoon. ${text}`;
+        greeting.innerHTML = `Good Afternoon, ${text}`;
     } else if(hours >= 18 && hours <= 23) {
-        greeting.innerHTML = `Good Evening. ${text}`
+        greeting.innerHTML = `Good Evening, ${text}`
     } else if(hours >=00 && hours < 06) {
-        greeting.innerHTML = `Good Night. ${text}`
+        greeting.innerHTML = `Good Night, ${text}`
     }
 }
 

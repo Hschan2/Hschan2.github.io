@@ -29,6 +29,13 @@ function paintToDo(text) {
     delBtn.innerHTML = "X";
     delBtn.addEventListener("click", deleteToDo);
     span.innerText = text;
+    span.addEventListener("click", function() {
+        if (span.style.textDecoration === "line-through") {
+            span.style.textDecoration = "none";
+        } else {
+            span.style.textDecoration = "line-through";
+        }
+    });
     li.appendChild(span); // li 안에 span 넣기
     li.appendChild(delBtn); // li 안에 delBtn 넣기
     li.id = newId;

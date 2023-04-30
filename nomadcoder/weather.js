@@ -9,10 +9,12 @@ function getWeather(lat, lng) { // 날씨 API 가져오기
     .then(function(response) { // fetch를 완료하고 then 수행해라
         return response.json();
     })
-    .then(function(json) {
-        const temp = json.main.temp;
-        const place = json.name;
-        weather.innerHTML = `${temp}˚, ${place}`;
+        .then(function (json) {
+            const temp = Math.round(json.main.temp);
+            const place = json.name;
+            const des = json.weather[0].description;
+            const wind = Math.round(json.wind.speed);
+            weather.innerHTML = `${wind}m/s ${temp}˚ ${des}, ${place}`;
     });
 }
 
