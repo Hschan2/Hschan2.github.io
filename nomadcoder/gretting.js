@@ -12,8 +12,13 @@ function saveName(text) {
 function handleSubmit(event) {
     event.preventDefault(); // 이벤트의 기본 동작 막기, enter 눌러도 텍스트 사라지지 않는다.
     const currentValue = input.value;
-    paintGreeting(currentValue);
-    saveName(currentValue);
+    if (!currentValue) {
+        alert("이름을 입력해주세요.");
+    }
+    else {
+        paintGreeting(currentValue);
+        saveName(currentValue);
+    }
 }
 
 function askForName() {
