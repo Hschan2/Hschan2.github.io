@@ -52,7 +52,8 @@ body {
 
 .nameBox::placeholder {
 	color: #2c3e50;
-	text-align: left;
+	font-size: 12px;
+	text-align: center;
 }
 
 .js-toDoForm {
