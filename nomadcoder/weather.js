@@ -5,7 +5,7 @@ const weather = document.querySelector(".js-weather");
 const API_KEY = 'a03004bf971234fd4cb532f6df20b7af';
 
 function getWeather(lat, lng) { // 날씨 API 가져오기
-    fetch(`http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lng}&appid=${API_KEY}&units=metric&lang=kr`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lng}&appid=${API_KEY}&units=metric&lang=kr`)
     .then(function(response) { // fetch를 완료하고 then 수행해라
         return response.json();
     })
