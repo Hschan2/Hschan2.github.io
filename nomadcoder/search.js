@@ -1,21 +1,25 @@
 const searchBox = document.querySelector('.search-box');
-const input = searchBox.querySelector('input');
-const button = searchBox.querySelector('button');
+const input = searchBox.querySelector('.searchInput');
+const button = searchBox.querySelector('.searchBtn');
+const selectValue = searchBox.querySelector('.selectSearch');
 
-button.addEventListener('click', search);
-
-input.addEventListener('keyup', function (event) {
-    if (event.keyCode === 13) {
-        search();
-    }
-});
-
-function search(event) {
-    if (input.value) {
-        window.location.href = 'https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=1&ie=utf8&query=' + input.value;
-    } else {
-        alert('검색어를 입력해주세요.');
-    }
-
+searchBox.addEventListener("submit", function (event) {
     event.preventDefault();
-}
+
+    const query = input.value;
+    const engine = selectValue.value;
+    let url;
+
+    if (query.trim() === "") {
+        alert("검색어를 입력하세요.");
+        return;
+    }
+
+    if (engine === "naver") {
+        url = `https://search.naver.com/search.naver?query=${encodeURIComponent(query)}`;
+    } else if (engine === "google") {
+        url = `https://www.google.com/search?q=${encodeURIComponent(query)}`;
+    }
+
+    window.location.href = url;
+})

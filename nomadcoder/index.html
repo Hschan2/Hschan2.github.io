@@ -30,8 +30,12 @@
 	</ul>
 
     <form class="search-box">
-        <input type="text" class="searchInput" placeholder="네이버 검색">
-        <button type="button" class="searchBtn"><i class='bx bx-search'></i></button>
+        <select class="selectSearch" name="whichSearch">
+            <option value="google" id="google">Google</option>
+            <option value="naver" id="naver">Naver</option>
+        </select>
+        <input type="text" class="searchInput" name="search" maxlength="255" value="" placeholder="검색어 입력">
+        <button type="submit" class="searchBtn" name="click" value=""><i class='bx bx-search'></i></button>
     </form>
 
     <footer class="footer">
