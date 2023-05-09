@@ -1,0 +1,46 @@
+.bright-button {
+    position: fixed;
+    right: 2.5rem;
+    bottom: 7rem;
+    background-color: var(--title-color);
+    opacity: 0.8;
+    padding: 0.7rem 0.5rem;
+    border-radius: 0.4rem;
+    z-index: var(--z-tooltip);
+    transition: 0.4s;
+}
+
+.bright_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: var(--container-color);
+}
+
+.bright-button:hover {
+    background-color: var(--title-color-dark);
+}
+
+@media screen and (max-width: 992px) {
+    .bright-button {
+        right: 1.5rem;
+        padding: 0.25rem 0.4rem;
+    }
+
+    .bright_icon {
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .bright-button {
+        bottom: 4rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .scrollup {
+        right: 1rem;
+    }
+}
