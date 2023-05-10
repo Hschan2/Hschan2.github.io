@@ -1,7 +1,6 @@
 import React from 'react'
 import './about.css'
 import AboutImg from '../../assets/myProfile.jpg'
-import CV from '../../assets/John-Cv.pdf'
 import Info from './Info'
 
 const About = () => {
@@ -19,7 +18,7 @@ const About = () => {
             Frontend developer, I create web pages with UI / UX user interface, I have years of experience and many clients are happy with the projects carried out.
           </p>
 
-          <a href="https://clover-stop-dbf.notion.site/ead5a5d6a41a4116b63d4ec5bf830253" target="_blank" className="button button-flex">
+          <a href="https://clover-stop-dbf.notion.site/ead5a5d6a41a4116b63d4ec5bf830253" target="_blank" rel="noopener noreferrer" className="button button-flex">
             Notion CV
             <svg
                 class="button__icon"

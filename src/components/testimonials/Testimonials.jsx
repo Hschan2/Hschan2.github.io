@@ -37,7 +37,7 @@ const Testimonials = () => {
 
                           <h3 className="testimonial_name">{title}</h3>
                           <p className="testimonial_description">{description}</p>
-                          <a href={url} className="testimonial_button" target="_blank">
+                          <a href={url} className="testimonial_button" target="_blank" rel="noopener noreferrer">
                             See <i className="bx bx-right-arrow-alt testimonial_button-icon"></i>
                         </a>
                       </SwiperSlide>
